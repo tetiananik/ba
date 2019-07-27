@@ -1,126 +1,179 @@
- {    
-    "first_query":[
-          {
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@tetiananik 
+0
+0 0 Rossiotty/BA-Dash
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
+BA-Dash/dataBAtech.json
+@Rossiotty Rossiotty Update dataBAtech.json
+5fba034 yesterday
+162 lines (161 sloc)  4.22 KB
+    
+{
+    "AvrSalary": [
+        {
             "dept_name": "Administration",
             "emp_id": "2",
             "avg (employees.salary)": "6250"
-          },
-          {
+        },
+        {
             "dept_name": "Finance",
             "emp_id": "4",
             "avg (employees.salary)": "6000"
-          },
-          {
+        },
+        {
             "dept_name": "Human Resources",
             "emp_id": "1",
             "avg (employees.salary)": "5000"
-          },
-          {
+        },
+        {
             "dept_name": "Sales",
             "emp_id": "3",
-            "avg (employees.salary)": "5983.333333333333"
-          },
-          {
-            "dept_name": ""
-          }
-        ],
-   "second_query" : [
-       
-         {
-          "product_id": "1",
-          "product_name": "Aniseed Syrup",
-          "supplier_id": "1",
-          "category_id": "2",
-          "quantity_per_unit": "12 - 550 ml bottles",
-          "price": "10"
-         },
-         {
-          "product_id": "2",
-          "product_name": "Cajun Seasoning",
-          "supplier_id": "2",
-          "category_id": "2",
-          "quantity_per_unit": "48 - 6 oz jars",
-          "price": "22"
-         },
-         {
-          "product_id": "3",
-          "product_name": "Green Tea",
-          "supplier_id": "1",
-          "category_id": "1",
-          "quantity_per_unit": "10 boxes x 20 bags",
-          "price": "18"
-         },
-         {
-          "product_id": "4",
-          "product_name": "Gumbo Mix",
-          "supplier_id": "2",
-          "category_id": "2",
-          "quantity_per_unit": "36 boxes",
-          "price": "21.35"
-         },
-         {
-          "product_id": "5",
-          "product_name": "Grandmas Boysenberry Spread",
-          "supplier_id": "3",
-          "category_id": "2",
-          "quantity_per_unit": "12 - 8 oz jars",
-          "price": "25"
-         },
-         {
-          "product_id": "6",
-          "product_name": "Uncle Bobs Organic Dried Pears",
-          "supplier_id": "3",
-          "category_id": "7",
-          "quantity_per_unit": "12 - 1 lb pkgs.",
-          "price": "30"
-         },
-         {
-          "product_id": "7",
-          "product_name": "Northwoods Cranberry Sauce",
-          "supplier_id": "3",
-          "category_id": "2",
-          "quantity_per_unit": "12 - 12 oz jars",
-          "price": "40"
-         },
-         {
-          "product_id": "8",
-          "product_name": "Mishi Kobe Niku",
-          "supplier_id": "4",
-          "category_id": "6",
-          "quantity_per_unit": "18 - 500 g pkgs.",
-          "price": "97"
-         },
-         {
-          "product_id": "9",
-          "product_name": "Ikura",
-          "supplier_id": "4",
-          "category_id": "8",
-          "quantity_per_unit": "12 - 200 ml jars",
-          "price": "31"
-         },
-         {
-          "product_id": "10",
-          "product_name": "Queso Cabrales",
-          "supplier_id": "5",
-          "category_id": "4",
-          "quantity_per_unit": "1 kg pkg.",
-          "price": "21"
-         },
-         {
-          "product_id": "11",
-          "product_name": "Queso Manchego La Pastora",
-          "supplier_id": "5",
-          "category_id": "4",
-          "quantity_per_unit": "10 - 500 g pkgs.",
-          "price": "38"
-         },
-         {
-          "product_id": "12",
-          "product_name": "Konbu",
-          "supplier_id": "6",
-          "category_id": "8",
-          "quantity_per_unit": "2 kg box",
-          "price": "6"
-         }
-  ]
+            "avg (employees.salary)": "5983.333333"
+        }
+    ],
+"AvrOrder": [
+        {
+            "cust_id": "20",
+            "cust_name": "Maria Larsson",
+            "REALValue": "9247.5",
+            "TimesOrdered": "4",
+            "AverageOrderSum": "2311.875"
+        },
+        {
+            "cust_id": "6",
+            "cust_name": "Christina Aguilera",
+            "REALValue": "19224.55",
+            "TimesOrdered": "10",
+            "AverageOrderSum": "1922.455"
+        },
+        {
+            "cust_id": "49",
+            "cust_name": "Pascale Cartrain",
+            "REALValue": "7641",
+            "TimesOrdered": "5",
+            "AverageOrderSum": "1528.2"
+        },
+        {
+            "cust_id": "19",
+            "cust_name": "Diego Roel",
+            "REALValue": "22548.9",
+            "TimesOrdered": "15",
+            "AverageOrderSum": "1503.26"
+        },
+        {
+            "cust_id": "52",
+            "cust_name": "Miguel Angel Paolino",
+            "REALValue": "27400.25",
+            "TimesOrdered": "19",
+            "AverageOrderSum": "1442.118421"
+        }
+    ],
+"AvrUnit": [
+        {
+            "AverageUnit": "52.45764818",
+            "country": "Spain"
+        },
+        {
+            "AverageUnit": "49.61752137",
+            "country": "Sweden"
+        },
+        {
+            "AverageUnit": "38.70369212",
+            "country": "Mexico"
+        },
+        {
+            "AverageUnit": "31.43685185",
+            "country": "Canada"
+        },
+        {
+            "AverageUnit": "29.4483871",
+            "country": "Brazil"
+        }
+    ],
+     "ShipValue": [
+        {
+            "shipper_name": "Federal Shipping",
+            "REALValue": "26210953.6"
+        },
+        {
+            "shipper_name": "Speedy Express",
+            "REALValue": "21970946.4"
+        },
+        {
+            "shipper_name": "United Package",
+            "REALValue": "28138229.6"
+        }
+    ],
+     "SuplQuant": [
+        {
+            "country": "USA",
+            "SuppliersQuantity": "4"
+        },
+        {
+            "country": "France",
+            "SuppliersQuantity": "3"
+        },
+        {
+            "country": "Australia",
+            "SuppliersQuantity": "2"
+        },
+        {
+            "country": "Canada",
+            "SuppliersQuantity": "2"
+        },
+        {
+            "country": "Japan",
+            "SuppliersQuantity": "2"
+        }
+    ],
+    "ProdHero": [
+        {
+            "category_name": "Beverages",
+            "product_name": "Cte de Blaye",
+            "REALValue": "52173",
+            "SUM(order_details.units)": "198",
+            "supplier_name": "Lyngbysild",
+            "country": "Denmark"
+        },
+        {
+            "category_name": "Seafood",
+            "product_name": "Carnarvon Tigers",
+            "REALValue": "21312.5",
+            "SUM(order_details.units)": "341",
+            "supplier_name": "Specialty Biscuits, Ltd.",
+            "country": "UK"
+        },
+        {
+            "category_name": "Confections",
+            "product_name": "Tarte au sucre",
+            "REALValue": "21199",
+            "SUM(order_details.units)": "430",
+            "supplier_name": "Aux joyeux ecclsiastiques",
+            "country": "France"
+        },
+        {
+            "category_name": "Confections",
+            "product_name": "Rodneys Marmalade",
+            "REALValue": "18873",
+            "SUM(order_details.units)": "233",
+            "supplier_name": "PB Knckebrd AB",
+            "country": "Sweden"
+        },
+        {
+            "category_name": "Meat/Poultry",
+            "product_name": "Mishi Kobe Niku",
+            "REALValue": "13580",
+            "SUM(order_details.units)": "140",
+            "supplier_name": "Tokyo Traders",
+            "country": "Japan"
+        }
+    ]
  }
