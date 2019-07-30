@@ -1,27 +1,5 @@
-
 {
-    "AvrSalary": [
-        {
-            "dept_name": "Administration",
-            "emp_id": "2",
-            "avg (employees.salary)": "6250"
-        },
-        {
-            "dept_name": "Finance",
-            "emp_id": "4",
-            "avg (employees.salary)": "6000"
-        },
-        {
-            "dept_name": "Human Resources",
-            "emp_id": "1",
-            "avg (employees.salary)": "5000"
-        },
-        {
-            "dept_name": "Sales",
-            "emp_id": "3",
-            "avg (employees.salary)": "5983.333333"
-        }
-    ],
+     
 "AvrOrder": [
         {
             "cust_id": "20",
@@ -115,6 +93,48 @@
         {
             "country": "Japan",
             "SuppliersQuantity": "2"
+        }
+    ],
+    "ProdHero": [
+        {
+            "category_name": "Beverages",
+            "product_name": "Cte de Blaye",
+            "REALValue": "52173",
+            "SUM(order_details.units)": "198",
+            "supplier_name": "Lyngbysild",
+            "country": "Denmark"
+        },
+        {
+            "category_name": "Seafood",
+            "product_name": "Carnarvon Tigers",
+            "REALValue": "21312.5",
+            "SUM(order_details.units)": "341",
+            "supplier_name": "Specialty Biscuits, Ltd.",
+            "country": "UK"
+        },
+        {
+            "category_name": "Confections",
+            "product_name": "Tarte au sucre",
+            "REALValue": "21199",
+            "SUM(order_details.units)": "430",
+            "supplier_name": "Aux joyeux ecclsiastiques",
+            "country": "France"
+        },
+        {
+            "category_name": "Confections",
+            "product_name": "Rodneys Marmalade",
+            "REALValue": "18873",
+            "SUM(order_details.units)": "233",
+            "supplier_name": "PB Knckebrd AB",
+            "country": "Sweden"
+        },
+        {
+            "category_name": "Meat/Poultry",
+            "product_name": "Mishi Kobe Niku",
+            "REALValue": "13580",
+            "SUM(order_details.units)": "140",
+            "supplier_name": "Tokyo Traders",
+            "country": "Japan"
         }
     ]
  }
