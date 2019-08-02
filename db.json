@@ -104,7 +104,7 @@
             "product_name": "Cte de Blaye",
             "REALValue": "52173",
             "SUM(order_details.units)": "198",
-            "supplier_name": "Lyngbysild",
+            "supplier_name": "Lyngbysild"
             
         },
         {
@@ -112,7 +112,7 @@
             "product_name": "Carnarvon Tigers",
             "REALValue": "21312.5",
             "SUM(order_details.units)": "341",
-            "supplier_name": "Specialty Biscuits, Ltd.",
+            "supplier_name": "Specialty Biscuits, Ltd."
             
         },
         {
@@ -120,7 +120,7 @@
             "product_name": "Tarte au sucre",
             "REALValue": "21199",
             "SUM(order_details.units)": "430",
-            "supplier_name": "Aux joyeux ecclsiastiques",
+            "supplier_name": "Aux joyeux ecclsiastiques"
             
         },
         {
@@ -128,7 +128,7 @@
             "product_name": "Rodneys Marmalade",
             "REALValue": "18873",
             "SUM(order_details.units)": "233",
-            "supplier_name": "PB Knckebrd AB",
+            "supplier_name": "PB Knckebrd AB"
             
         },
         {
@@ -136,7 +136,7 @@
             "product_name": "Mishi Kobe Niku",
             "REALValue": "13580",
             "SUM(order_details.units)": "140",
-            "supplier_name": "Tokyo Traders",
+            "supplier_name": "Tokyo Traders"
             
         }
     ]
