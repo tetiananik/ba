@@ -60,17 +60,20 @@
         }
     ],
      "ShipValue": [
+      {
+            "shipper_name": "United Package",
+            "REALValue": "28138229.60000008",
+            "OrdersQuantity": "37084"
+        },
         {
             "shipper_name": "Federal Shipping",
-            "REALValue": "26210953.6"
+            "REALValue": "26210953.600000083",
+            "OrdersQuantity": "34544"
         },
         {
             "shipper_name": "Speedy Express",
-            "REALValue": "21970946.4"
-        },
-        {
-            "shipper_name": "United Package",
-            "REALValue": "28138229.6"
+            "REALValue": "21970946.40000009",
+            "OrdersQuantity": "28956"
         }
     ],
      "SuplQuant": [
